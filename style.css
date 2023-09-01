@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.head{
+    text-align: center;
+    margin-top: 10px;
+}
+.head p{
+    font-size: 25px;
+    margin-top: 0;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+input{
+    outline: none;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgba(0, 0, 0, 0.614);
+    font-size: 20px;
+}
+.title{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.price input{
+    width: calc(95%/4);
+    
+}
+.total{
+    background-color:#14a30b;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: rgba(0, 0, 0, 0.568);
+    border: 2px solid rgba(0, 0, 0, 0.614);
+    outline: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.search{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search button{
+    width: calc(90%/2);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.573);
+    background-color: #6e6e6e;
+}
+.delete{
+    background-color: rgba(0, 0, 0, 0.568);
+    border: 2px solid rgba(0, 0, 0, 0.614);
+    outline: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
